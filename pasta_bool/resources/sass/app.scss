@@ -26,7 +26,7 @@ header {
   }
 
   // Navbar
-  
+
   #navbar {
 
     display: flex;
@@ -46,6 +46,37 @@ header {
         font-size: 40px;
 
         margin-right: 35px;
+
+        cursor: pointer;
+      }
+    }
+  }
+
+}
+
+main {
+
+
+  padding: 0 50px;
+  .pastas {
+
+    h1 {
+
+      font-size: 80px;
+      color: darkblue;
+
+    }
+
+    .product {
+
+      width: 50%;
+
+      img {
+
+        height: 150px;
+
+        margin: 30px 30px 0 0;
+
       }
     }
   }

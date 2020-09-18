@@ -30,5 +30,24 @@ header #navbar #navlist {
 header #navbar #navlist li {
   font-size: 40px;
   margin-right: 35px;
+  cursor: pointer;
+}
+
+main {
+  padding: 0 50px;
+}
+
+main .pastas h1 {
+  font-size: 80px;
+  color: darkblue;
+}
+
+main .pastas .product {
+  width: 50%;
+}
+
+main .pastas .product img {
+  height: 150px;
+  margin: 30px 30px 0 0;
 }
 
