@@ -1,1 +1,53 @@
-//
+//General rules
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+// Header
+
+header {
+
+  width: 100%;
+
+  padding: 50px 50px;
+
+  // Logo
+
+  .logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  // Navbar
+  
+  #navbar {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 80px;
+
+    #navlist {
+
+      display: flex;
+
+      list-style-type: none;
+
+      li {
+
+        font-size: 40px;
+
+        margin-right: 35px;
+      }
+    }
+  }
+
+}
