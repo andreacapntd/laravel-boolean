@@ -56,9 +56,16 @@ header {
 
 main {
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   padding: 0 50px;
+
   .pastas {
+
+    width: 50%;
 
     h1 {
 
@@ -68,8 +75,9 @@ main {
     }
 
     .product {
+      display: flex;
+      flex-wrap: wrap;
 
-      width: 50%;
 
       img {
 
