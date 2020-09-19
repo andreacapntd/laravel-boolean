@@ -1,0 +1,75 @@
+// Footer
+
+footer {
+
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  margin-top: 50px;
+  padding: 0 50px;
+
+  .wrapper {
+
+    display: flex;
+
+    width: 50%;
+
+    font-size: 23px;
+
+    h3 {
+
+      font-size: 40px;
+
+      text-transform: uppercase;
+
+    }
+
+    ul {
+
+      list-style-type: none;
+
+    }
+
+    li {
+
+      margin: 20px 0;
+
+    }
+
+    a {
+
+      text-decoration: none;
+      color: inherit;
+
+    }
+
+    .info {
+
+      display: flex;
+      flex-direction: column;
+
+      width: 190px;
+
+      img {
+
+        width: 190px;
+
+      }
+
+    }
+
+    .pastificio {
+
+      margin: 0 80px;
+
+    }
+
+    .collezione {
+
+      margin-right: 80px;
+
+    }
+
+  }
+}
