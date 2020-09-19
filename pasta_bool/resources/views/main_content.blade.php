@@ -17,6 +17,7 @@
       @endforeach
 
     </div>
+
   </div>
 
   <div class="pastas">
@@ -34,6 +35,7 @@
       @endforeach
 
     </div>
+
   </div>
 
   <div class="pastas">
@@ -51,7 +53,7 @@
       @endforeach
 
     </div>
-  </div>
 
+  </div>
 
 @endsection
