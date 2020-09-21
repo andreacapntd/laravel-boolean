@@ -11,7 +11,7 @@
       @foreach ($data as $pasta)
 
         @if ($pasta['tipo'] == "lunga")
-          <img src="{{ asset($pasta['src']) }}" alt="">
+          <img src="{{ $pasta['src'] }}" alt="">
         @endif
 
       @endforeach
@@ -29,7 +29,7 @@
       @foreach ($data as $pasta)
 
         @if ($pasta['tipo'] == "corta")
-          <img src="{{ asset($pasta['src']) }}" alt="">
+          <img src="{{ $pasta['src'] }}" alt="">
         @endif
 
       @endforeach
@@ -47,7 +47,7 @@
       @foreach ($data as $pasta)
 
         @if ($pasta['tipo'] == "cortissima")
-          <img src="{{ asset($pasta['src']) }}" alt="">
+          <img src="{{ $pasta['src'] }}" alt="">
         @endif
 
       @endforeach
